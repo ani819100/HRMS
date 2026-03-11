@@ -5,9 +5,7 @@ function App() {
   return (
     <div>
       <h1>HR Management System</h1>
-      {/* <EmployeeForm /> */}
       <EmployeeList />
-      {/* <AttendanceForm /> */}
       <AttendanceList />
     </div>
   );
