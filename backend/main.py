@@ -12,7 +12,8 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI() 
 
 origins = [
-    "https://hrms-alik.onrender.com", 
+    "http://localhost:3000",               
+    "https://hrms-frontend.vercel.app",
 ]
 
 app.add_middleware(
