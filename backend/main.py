@@ -13,7 +13,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",               
-    "https://hrms-frontend.vercel.app",
+    "hrms-rosy-two.vercel.app",
 ]
 
 app.add_middleware(
